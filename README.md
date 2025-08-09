@@ -4,7 +4,7 @@ This project allows you to control an LED remotely over Wi-Fi using an Arduino b
 
 ---
 
-## ✨ Features
+Features
 - Remote LED control via HTTP requests
 - Works on a local network or over the internet
 - Simple and lightweight code
@@ -12,7 +12,7 @@ This project allows you to control an LED remotely over Wi-Fi using an Arduino b
 
 ---
 
-## 🛠 Components Required
+Components Required
 - Arduino board with Wi-Fi capability (ESP8266 NodeMCU / ESP32)
 - LED
 - 220Ω resistor
@@ -21,14 +21,14 @@ This project allows you to control an LED remotely over Wi-Fi using an Arduino b
 
 ---
 
-## 🔌 Circuit Diagram
+Circuit Diagram
 1. **LED Anode (+)** → **GPIO Pin** (as defined in the code)
 2. **LED Cathode (-)** → **GND** (through 220Ω resistor)
 
 
 ---
 
-## ⚙️ Setup Instructions
+Setup Instructions
 
 1. **Install Arduino IDE**  
    Download from [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software).
@@ -59,7 +59,7 @@ This project allows you to control an LED remotely over Wi-Fi using an Arduino b
 
 ---
 
-## 📡 Usage
+Usage
 - Once uploaded, open **Serial Monitor** (baud 115200) to see the device’s IP address.
 - In your browser, type:
   - `http://<DEVICE_IP>/led/on` → Turn LED ON
